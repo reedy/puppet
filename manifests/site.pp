@@ -10,6 +10,6 @@ node 'ubuntu64-db-esxi' {
     include base
 }
 
-node 'casto.vm.bytemark.co.uk' {
+node 'castro.vm.bytemark.mehserver.net' {
     include base
 }
