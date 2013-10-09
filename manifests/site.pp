@@ -9,3 +9,7 @@ node 'ubuntu64-web-esxi' {
 node 'ubuntu64-db-esxi' {
     include base
 }
+
+node 'casto.vm.bytemark.co.uk' {
+    include base
+}

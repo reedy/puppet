@@ -1,7 +1,7 @@
 class base {
     package {[
         'ack-grep',
-        'bash-completion'
+        'bash-completion',
         'nano',
         # 'puppet',
         'screen',
