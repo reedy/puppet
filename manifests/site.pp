@@ -1,9 +1,12 @@
 node 'ubuntu64-shell-esxi' {
-    include base
+    include base,
+        dev,
+        quassel
 }
 
 node 'ubuntu64-web-esxi' {
-    include base
+    include base,
+        dev
 }
 
 node 'ubuntu64-db-esxi' {
@@ -11,5 +14,7 @@ node 'ubuntu64-db-esxi' {
 }
 
 node 'castro.vm.bytemark.mehserver.net' {
-    include base
+    include base,
+        dev,
+        quassel
 }
