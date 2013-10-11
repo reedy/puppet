@@ -1,6 +1,6 @@
 class quassel {
     package {[
-        'quassel',
+        'quassel-core',
         ]: ensure => present,
     }
 }
