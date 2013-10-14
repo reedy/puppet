@@ -2,6 +2,7 @@ class base {
     package {[
         'ack-grep',
         'bash-completion',
+        'mosh',
         'nano',
         'openssh-blacklist',
         'openssh-blacklist-extra',
