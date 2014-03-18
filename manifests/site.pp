@@ -1,3 +1,5 @@
+import 'reedy.pp'
+
 node 'ubuntu64-shell-esxi' {
     include base,
         dev,
