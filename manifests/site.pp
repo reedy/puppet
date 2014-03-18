@@ -18,3 +18,12 @@ node 'castro.vm.bytemark.mehserver.net' {
         dev,
         quassel
 }
+
+node 'ftl-welcom.ftlcompany.local' {
+}
+
+node 'ftl-mysql.ftlcompany.local' {
+}
+
+node 'ftl-ubuntu64-shell.ftlcompany.local' {
+}
