@@ -4,6 +4,7 @@ class base {
         'bash-completion',
         'mosh',
         'nano',
+        'openssh-server',
         'openssh-blacklist',
         'openssh-blacklist-extra',
         'p7zip-full',
