@@ -23,17 +23,17 @@ node 'castro.vm.bytemark.mehserver.net' {
         reedy
 }
 
-node 'ftl-welcom.ftlcompany.local' {
+node 'ftl-welcom' {
     include base,
         reedy
 }
 
-node 'ftl-mysql.ftlcompany.local' {
+node 'ftl-mysql' {
     include base,
         reedy
 }
 
-node 'ftl-ubuntu64-shell.ftlcompany.local' {
+node 'ftl-ubuntu64-shell' {
     include base,
         reedy
 }
