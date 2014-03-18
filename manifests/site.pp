@@ -1,29 +1,39 @@
 node 'ubuntu64-shell-esxi' {
     include base,
         dev,
-        quassel
+        quassel,
+        reedy
 }
 
 node 'ubuntu64-web-esxi' {
     include base,
-        dev
+        dev,
+        reedy
 }
 
 node 'ubuntu64-db-esxi' {
-    include base
+    include base,
+        reedy
 }
 
 node 'castro.vm.bytemark.mehserver.net' {
     include base,
         dev,
-        quassel
+        quassel,
+        reedy
 }
 
 node 'ftl-welcom.ftlcompany.local' {
+    include base,
+        reedy
 }
 
 node 'ftl-mysql.ftlcompany.local' {
+    include base,
+        reedy
 }
 
 node 'ftl-ubuntu64-shell.ftlcompany.local' {
+    include base,
+        reedy
 }
