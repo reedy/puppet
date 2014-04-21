@@ -2,7 +2,12 @@ class reedy {
 	$username = "reedy"
 	$realname = "Sam Reed"
 
-	unixaccount { $realname: username => $username }
+	user { $username:
+		name       => $username,
+		shell      => '/bin/bash'
+		ensure     => 'present'
+		allowdupe  => false,
+	}
 
 	ssh_authorized_key {
 		"reedy":
