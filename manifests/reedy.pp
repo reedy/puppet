@@ -23,7 +23,8 @@ class reedy {
 	}
 	
 	group { $username:
-		gid => "$uid"
+		gid => $uid,
+		ensure    => present,
 	}
 	
 	group { 'sudo':
