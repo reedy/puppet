@@ -14,7 +14,7 @@ class reedy {
 		gid        => $gid,
 	}
 	
-	Ssh_authorized_key { require => Unixaccount[$realname] }
+	# Ssh_authorized_key { require => Unixaccount[$realname] }
 
 	ssh_authorized_key { $username:
 		ensure  => present,
