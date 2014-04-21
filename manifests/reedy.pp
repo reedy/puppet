@@ -5,7 +5,7 @@ class reedy {
 	user { $username:
 		name       => $username,
 		shell      => '/bin/bash'
-		ensure     => 'present'
+		ensure     => present
 		allowdupe  => false,
 	}
 
