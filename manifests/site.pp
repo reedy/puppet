@@ -25,6 +25,13 @@ node 'castro.vm.bytemark.mehserver.net' {
         reedy
 }
 
+node 'kokra.vm.bytemark.mehserver.net' {
+    include base,
+        dev,
+        quassel,
+        reedy
+}
+
 node 'ftl-welcom' {
     include base,
         reedy
