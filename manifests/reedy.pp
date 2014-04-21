@@ -14,8 +14,7 @@ class reedy {
 		gid        => $gid,
 	}
 
-	ssh_authorized_key {
-		"reedy":
+	ssh_authorized_key { $username:
 			ensure  => present,
 			user    => $username,
 			type    => "ssh-rsa",
