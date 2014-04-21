@@ -1,6 +1,9 @@
 class reedy {
 	$username = "reedy"
 	$realname = "Sam Reed"
+
+	unixaccount { $realname: username => $username }
+
 	ssh_authorized_key {
 		"reedy":
 			ensure  => present,
