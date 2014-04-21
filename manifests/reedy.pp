@@ -5,7 +5,7 @@ class reedy {
 	user { $username:
 		name       => $username,
 		shell      => '/bin/bash',
-		home       => '/home/$username',
+		home       => "/home/$username",
 		ensure     => present,
 		allowdupe  => false,
 	}
