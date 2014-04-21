@@ -25,7 +25,7 @@ node 'castro.vm.bytemark.mehserver.net' {
         reedy
 }
 
-node 'kokra.vm.bytemark.mehserver.net' {
+node 'ko-kra.vm.bytemark.mehserver.net' {
     include base,
         dev,
         quassel,
