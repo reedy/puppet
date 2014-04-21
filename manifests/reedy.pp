@@ -4,8 +4,8 @@ class reedy {
 
 	user { $username:
 		name       => $username,
-		shell      => '/bin/bash'
-		ensure     => present
+		shell      => '/bin/bash',
+		ensure     => present,
 		allowdupe  => false,
 	}
 
