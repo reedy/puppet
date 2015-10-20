@@ -32,17 +32,22 @@ node 'ko-kra.vm.bytemark.mehserver.net' {
         reedy
 }
 
-node 'ftl-welcom' {
-    include base,
-        reedy
-}
-
 node 'ftl-mysql' {
     include base,
         reedy
 }
 
 node 'ftl-ubuntu64-shell' {
+    include base,
+        reedy
+}
+
+node 'ftl-welcom' {
+    include base,
+        reedy
+}
+
+node 'ftl-wiki' {
     include base,
         reedy
 }
