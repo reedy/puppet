@@ -1,7 +1,7 @@
 class quassel {
     package {[
         'quassel-core',
-        'libqt4-sql-psql',
+        'libqt5sql5-psql',
         'postgresql',
         ]: ensure => present,
     }
