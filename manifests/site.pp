@@ -18,13 +18,6 @@ node 'ubuntu64-db-esxi' {
         reedy
 }
 
-node 'castro.vm.bytemark.mehserver.net' {
-    include base,
-        dev,
-        quassel,
-        reedy
-}
-
 node 'ko-kra.vm.bytemark.mehserver.net' {
     include base,
         dev,
