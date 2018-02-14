@@ -1,12 +1,12 @@
 class base {
     package {[
-        'ack-grep',
+        # 'ack',
         'bash-completion',
         'mosh',
         'nano',
         'openssh-server',
-        'openssh-blacklist',
-        'openssh-blacklist-extra',
+        # 'openssh-blacklist',
+        # 'openssh-blacklist-extra',
         'p7zip-full',
         'p7zip',
         'puppet',

@@ -1,5 +1,3 @@
-import 'reedy.pp'
-
 node 'ubuntu64-shell-esxi' {
     include base,
         dev,
@@ -22,7 +20,8 @@ node 'ko-kra.vm.bytemark.mehserver.net' {
     include base,
         dev,
         quassel,
-        reedy
+#        reedy,
+        isreedyintheuk
 }
 
 node 'ftl-mysql' {
