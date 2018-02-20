@@ -41,5 +41,6 @@ server {
 		allow all;
 	}
 
-	error_page 497 https://$server_name$request_uri;
+	# error_page 497 https://$server_name$request_uri;
+	return 301 https://$host$request_uri;
 }
