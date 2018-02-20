@@ -13,7 +13,7 @@ server {
 
 	index index.php;
 
-	server_name <%= @hostname %>;
+	server_name <%= @hostname %> www.<%= @hostname %>;
 
 	error_page 497 https://$server_name$request_uri;
 
@@ -32,7 +32,8 @@ server {
 server {
 	listen 80 <%= @default_server %>;
 	listen [::]:80 <%= @default_server %>;
-	server_name <%= @hostname %>;
+
+	server_name <%= @hostname %> www.<%= @hostname %>;
 
 	root /var/www/whereisreedy;
 
